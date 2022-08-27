@@ -1,0 +1,152 @@
+:root {
+    /* Primary colors */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* Neutral colors */
+    --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    /* background: var(--Very-dark-blue-main); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* div {
+    border: 2px solid black;
+} */
+
+.product-card {
+    width: 350px;
+    height: 596px;
+    margin: 152px 545px;
+    padding: 24px 24px 270px 24px;
+    text-align: left;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    background: var(--Very-dark-blue-card);
+}
+
+.product-img {
+    width: 302px;
+    height: 302px;
+    background-image: url(images/image-equilibrium.jpg);
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.product-name {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    padding: auto 24px;
+    margin: 24px 0px 16px 0;
+    color: var(--White)
+}
+
+.product-details {
+    height: 52px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--Soft-blue);
+}
+
+.product-price {
+    margin: 24px 0;
+}
+
+.icon-ethereum {
+    width: 11px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.price {
+    width: 75px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--Cyan);
+    text-align: center;
+}
+
+.icon-clock {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.sale-date {
+    width: 73px;
+    height: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--Soft-blue);
+    margin-left: 100px;
+    text-align: center;
+}
+
+.delimiter {
+    width: 302px;
+    border-top: 1px solid #2E405A;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+
+.product-author {
+    margin: 16px 0 32px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border: 1px solid var(--White);
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.author-name {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.greycolor {
+    color: var(--Soft-blue);
+}
+
+.whitecolor {
+    color: var(--White);
+}
