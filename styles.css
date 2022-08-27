@@ -27,7 +27,7 @@ body {
 }
 
 .product-card {
-    width: 350px;
+    max-width: 350px;
     height: 596px;
     margin: 152px 545px;
     padding: 24px 24px 270px 24px;
@@ -205,7 +205,7 @@ body {
 
 /* Mobile view @375px*/
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     * {
         padding: 0;
         margin: 0;
@@ -220,7 +220,7 @@ body {
     }
 
     .product-card {
-        width: 327px;
+        max-width: 327px;
         height: 574px;
         margin: 62px 24px;
     }
